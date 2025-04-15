@@ -1,33 +1,56 @@
 body {
-    background-color: rgb(230, 230, 230);
+    background-color: #F1EFEC;
+    color: #030303;
+    margin-top: 50px;
 }
+
 .logo {
-    background: left / cover
-      url("/shared-assets/images/examples/puppy-header.jpg");
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ff0083;
-    text-shadow: #000 2px 2px 0.2rem;
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
   }
-  button {
-    padding: 8px 15px;
-    border: transparent;
-    background-color: transparent;
-    
+.button {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color:transparent; 
+  color: #030303;
+  text-decoration: none; 
+  border-radius: 5px; 
 }
-  header > h1 {
-    
-  }
+.conteiner {
+  display: flex; 
+  justify-content: space-between; /* Распределяем пространство между элементами */
+  margin-bottom: 20px; /* Отступ снизу для контейнера столбцов */
+}
+.col {
+  flex: 2; 
+  padding: 20px;
+  box-sizing: border-box; /* Учитываем отступы в ширине */
+}
+ iframe {
+  border-radius: 5px; 
+  margin-right:  10px;
+ }
   article {
     border-radius: 10px;
-    color: #1c266a;
-    background-color: #cbcbcb;
+    background-color: #D4C9BE;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px 0;
   }
-  
+  .news {
+    border-radius: 10px;
+    background-color: #123458;
+    text-align: justify;
+    margin: 0;
+  }
   header {
-    left: 0px;
-    color: #1c266a;
-    background-color: #cbcbcb;
+    background-color: #123458;
+    color: #F1EFEC;
+    top: 0; /* Устанавливаем его в верхней части страницы */
+    left: 0; /* Устанавливаем его к левому краю */
+    right: 0; 
+    position: fixed;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
   
